@@ -23,12 +23,12 @@ Beschouw dit als mijn persoonlijke Kubernetes dojo: iedere fout is een les, iede
 
 ## 🔁 Typische Workflow
 
-\`\`\`bash
+```bash
 kind create cluster
 vim deployment.yaml
 kubectl apply -f deployment.yaml
 # Debuggen als het misgaat (want dat gebeurt gegarandeerd)
-\`\`\`
+```
 
 Herhalen tot het *klikt* – en dan nog een keer.
 
