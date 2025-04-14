@@ -36,6 +36,7 @@ Herhalen tot het *klikt* – en dan nog een keer.
 
 ## 📦 Wat je hier vindt
 
+- 📖 Bestudeerde theorie van KodeKloud CKA Cursus
 - 🧾 Voorbeelden van manifests (Deployments, Services, Ingress)
 - 🔧 Realistische troubleshooting cases
 - 🔐 RBAC configuraties
