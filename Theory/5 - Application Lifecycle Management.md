@@ -242,6 +242,8 @@ kubectl top pod
 - Look for the `Recommendation` section under the `Status` field.
 - Identify the `target.cpu` value for the relevant container (e.g., `flask-app-4`).
 
+### VPA Practical Notes
+
 1. **Manually note** the target CPU value and store it in `/root/target`.
 
 **Example Output**
