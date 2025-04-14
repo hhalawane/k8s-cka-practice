@@ -293,3 +293,14 @@ status:
 ```
 echo "143m" > /root/target
 ```
+
+# Key Differences HPA en VPA
+
+| Feature                 | VPA                                                           | HPA                                                              |
+| ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Scaling method          | Increases CPU & memory of existing Pods                       | Adds/Removes Pods based on load                                  |
+| Pod Behavior            | Restarts Pods to apply new resource values                    | Keeps existing Pods running                                      |
+| Handles Traffic Spikes? | NO - scaling requires a Pod restart                           | YES - instantly adds more Pods                                   |
+| Optimizes Costs?        | YES - Prevents over-provisioning of CPU/Memory                | YES - Avoids unnecessary idle Pods                               |
+| Best For                | Stateful workloads, CPU/memory-heavy apps (DBs, ML Workloads) | Web apps, microservices, stateless services                      |
+| Example Use Cases       | DBs (MySQL, PostgreSQL), JVM-based apps, AI/ML workloads      | Web Servers (Nginx, API servives), message queues, microservices |
