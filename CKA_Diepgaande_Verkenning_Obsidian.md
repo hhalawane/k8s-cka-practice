@@ -2,9 +2,9 @@
 _Afgestemd op Mumshad's Udemy-cursus_
 
 ## ✅ Checklist Overzicht
-- [ x] Dag 6 – Scheduling
-- [ x] Dag 7 – Logging & Monitoring
-- [ x] Dag 8 – Cluster Maintenance
+- [x] Dag 6 – Scheduling
+- [x] Dag 7 – Logging & Monitoring
+- [x] Dag 8 – Cluster Maintenance
 - [ ] Dag 9 – Security I (RBAC)
 - [ ] Dag 10 – Security II (SA, Secrets)
 - [ ] Dag 11 – Storage I
